@@ -42,6 +42,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:background="@color/white"
                 app:cardCornerRadius="60dp">
 
                 <LinearLayout
@@ -63,6 +64,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="7"
+                        android:maxLength="25"
+                        android:lines="1"
                         android:background="@color/white"
                         android:inputType="textWebEmailAddress"
                         android:text="@string/duykhanh_gmail_com" />
@@ -89,6 +92,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:background="@color/white"
                 app:cardCornerRadius="60dp">
 
                 <LinearLayout
@@ -111,6 +115,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="8.5"
                         android:background="@color/white"
+                        android:maxLength="20"
+                        android:lines="1"
                         android:inputType="textPassword"
                         android:text="@string/duykhanh_gmail_com" />
                 </LinearLayout>
@@ -155,6 +161,7 @@
                 android:gravity="center"
                 android:text="@string/or_connect_with"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 app:layout_constraintBottom_toTopOf="@+id/linear_layout_bottom" />
 
             <LinearLayout
@@ -210,6 +217,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/don_t_have_account"
+                    android:textColor="@color/black"
                     android:textSize="18sp" />
 
                 <TextView
