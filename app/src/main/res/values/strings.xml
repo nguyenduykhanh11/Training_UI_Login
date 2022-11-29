@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login_ui</string>
+    <string name="forgot_your_password">Forgot Your Password</string>
+    <string name="login">LOGIN</string>
+    <string name="duykhanh_gmail_com">duykhanh@gmail.com</string>
+    <string name="login_title">Login</string>
+    <string name="or_connect_with">or connect with</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="don_t_have_account">Don\'t have account ?</string>
+    <string name="sing_up">Sing Up</string>
+</resources>
