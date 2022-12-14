@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/color_main_background"
-    tools:context=".MainActivity">
+    android:id="@+id/layout_container"
+    tools:context=".ui.activities.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -61,14 +62,14 @@
                         android:src="@drawable/ic_user" />
 
                     <EditText
+                        android:id="@+id/edt_account"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="7"
                         android:maxLength="25"
                         android:lines="1"
                         android:background="@color/white"
-                        android:inputType="textWebEmailAddress"
-                        android:text="@string/duykhanh_gmail_com" />
+                        android:inputType="number"/>
 
                     <ImageView
                         android:layout_width="0dp"
@@ -111,14 +112,14 @@
                         android:src="@drawable/ic_password" />
 
                     <EditText
+                        android:id="@+id/edt_password"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="8.5"
                         android:background="@color/white"
                         android:maxLength="20"
                         android:lines="1"
-                        android:inputType="textPassword"
-                        android:text="@string/duykhanh_gmail_com" />
+                        android:inputType="textPassword|number" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
