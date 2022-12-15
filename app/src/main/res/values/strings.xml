@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Login_ui</string>
+    <string name="app_name">MVP_LOGIN</string>
     <string name="forgot_your_password">Forgot Your Password</string>
     <string name="login">LOGIN</string>
     <string name="duykhanh_gmail_com">duykhanh@gmail.com</string>
@@ -11,4 +11,5 @@
     <string name="sing_up">Sing Up</string>
     <string name="ng_nh_p_th_nh_c_ng">Đăng nhập thành công</string>
     <string name="logout">Logout</string>
+    <string name="logoutt">Logout</string>
 </resources>
