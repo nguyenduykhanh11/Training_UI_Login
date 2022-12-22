@@ -50,6 +50,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
+                    android:background="@color/white"
                     android:orientation="horizontal"
                     android:weightSum="10">
 
@@ -67,8 +68,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="7"
                         android:maxLength="25"
-                        android:lines="1"
                         android:background="@color/white"
+                        android:lines="1"
+                        android:textColor="@color/black"
                         android:inputType="number"/>
 
                     <ImageView
@@ -100,6 +102,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
+                    android:background="@color/white"
                     android:orientation="horizontal"
                     android:weightSum="10">
 
@@ -116,8 +119,9 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="8.5"
-                        android:background="@color/white"
                         android:maxLength="20"
+                        android:background="@color/white"
+                        android:textColor="@color/black"
                         android:lines="1"
                         android:inputType="textPassword|number" />
                 </LinearLayout>
